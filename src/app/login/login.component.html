@@ -1,0 +1,25 @@
+
+<div class="background">
+    <div class="header">
+      <img src="../../favicon.ico" alt="Spotify Logo" class="logo">
+      <span class="title">Spotify</span>
+    </div>
+    <div class="container">
+      <div class="card">
+      <img src="../../favicon.ico" alt="Spotify Logo" class="logo">
+        <h1>Log in to Spotify</h1>
+        <form>
+            <span style="color: white;"><strong>Email or username</strong></span>
+            <br>
+          <input type="text" class="Username" placeholder="Username" name="Username" [(ngModel)]="Username" required >
+          <br>
+          <span style="color: white;"><strong>Password</strong></span>
+          <br>
+          <input type="password" class="password" placeholder="Password" required name="password" [(ngModel)]="password" required>
+          <br>
+          <input type="submit" class="submit" value="Log In" (click)="submit()">
+        </form>
+      </div>
+    </div>
+  </div>
+  
