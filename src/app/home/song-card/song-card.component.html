@@ -1,0 +1,16 @@
+<!-- <div class="card">
+    <img class="card-img-top" [src]="song.imageUrl" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ song.title }}</h5>
+      <p class="card-text">{{ song.artist }}</p>
+    </div>
+  </div>
+   -->
+   <mat-card class="song-card">
+    <img mat-card-image [src]="song.imageUrl" alt="Card image cap">
+    <mat-card-content>
+      <h5 class="card-title">{{ song.title }}</h5>
+      <p class="card-text">{{ song.artist }}</p>
+    </mat-card-content>
+  </mat-card>
+  

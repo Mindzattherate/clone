@@ -1,0 +1,29 @@
+.background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(45deg, #000000, #333333);
+    // display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+
+.container {
+    background: linear-gradient(to bottom, #000000, #888888);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
