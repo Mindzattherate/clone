@@ -3,25 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
 import { SharedModule } from './shared/shared.module';
-import { HomePageComponent } from './home/home-page/home-page.component';
-import { SongCardComponent } from './home/song-card/song-card.component';
-// import { ToastrModule } from 'ngx-toastr';
+import { MaterialModule } from './shared/material/material.module';
+import { ToastrModule } from 'ngx-toastr';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    HomePageComponent,
     AppComponent,
-    SongCardComponent
-
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    // ToastrModule.forRoot(),
+    FormsModule,
+    MaterialModule,
+    ToastrModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

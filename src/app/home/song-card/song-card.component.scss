@@ -1,19 +1,28 @@
-.card {
-    width: 200px;
+
+  
+  .song-card {
+    width: 220px; /* Set width of the card */
+    height: 280px; /* Set height of the card */
     margin: 10px;
+    background-color: #121212; /* Set initial background color to blackish-gray */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px; /* Add border-radius to create curved edges */
+    overflow: hidden; /* Hide any overflow from the curved edges */
+    display: flex; /* Use flexbox to center image */
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
   }
   
-  .card-img-top {
-    width: 100%;
-    height: auto;
+  .song-card:hover {
+    background-color: #232323; /* Change background color on hover */
   }
   
-  .card-title {
-    margin-top: 10px;
-    font-size: 1.2rem;
-  }
-  
-  .card-text {
-    font-size: 1rem;
+  .image {
+    max-width: 80%; /* Set maximum width for the image */
+    max-height: 80%; /* Set maximum height for the image */
+    margin-top: 25px;
+    border-radius: 10px; /* Apply curved edges to the image */
   }
   
