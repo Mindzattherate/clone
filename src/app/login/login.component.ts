@@ -20,10 +20,9 @@ constructor(
 }
 
 submit(){
-  debugger
-  if(this.Username === "Rhythm"){
+  // if(this.Username === "Rhythm"){
     this.router.navigateByUrl('/home/home-page')
-  }
+  // }
   // else{
   //   this.toaster.error("Try a diffrent user")
   // }
