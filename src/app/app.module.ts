@@ -8,12 +8,16 @@ import { MaterialModule } from './shared/material/material.module';
 import { ToastrModule } from 'ngx-toastr';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { HomePageComponent } from './dashboard/home-page/home-page.component';
+import { SongCardComponent } from './dashboard/song-card/song-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    HomePageComponent,
+    SongCardComponent
   ],
   imports: [
     BrowserModule,
