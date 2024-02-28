@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 
 
@@ -12,7 +13,8 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     
   
-    HeaderComponent
+    HeaderComponent,
+              SideNavComponent
   ],
   imports: [
     CommonModule,
@@ -23,6 +25,7 @@ import { HeaderComponent } from './header/header.component';
   ], 
   exports:[
     HeaderComponent,
+    SideNavComponent
   ]
 })
 export class SharedModule { }
