@@ -20,6 +20,9 @@ import { HeaderComponent } from './header/header.component';
     FormsModule,
     HttpClientModule,
     RouterModule
+  ], 
+  exports:[
+    HeaderComponent,
   ]
 })
 export class SharedModule { }
