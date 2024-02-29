@@ -1,69 +1,42 @@
-// /* sidenav.component.scss */
-// nav {
-//     background-color: #333;
-//     color: #fff;
-//     padding: 20px;
-//   }
-  
-//   ul {
-//     list-style-type: none;
-//     padding: 0;
-//   }
-  
-//   li {
-//     margin-bottom: 10px;
-//   }
-  
-//   a {
-//     color: #fff;
-//     text-decoration: none;
-//   }
-  
-//   a:hover {
-//     text-decoration: underline;
-//   }
-  
-/* sidenav.component.scss */
 .sidenav {
-    display: flex;
-    flex-direction: column;
-    // background: linear-gradient(to top, #000000, #333333);
-    background-color: black;
+  display: flex;
+  flex-direction: column;
+  // background: linear-gradient(to top, #000000, #333333);
+  background-color: black;
 
-  }
-  
-  .card {
-    margin-bottom: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .card-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  .card-body {
-    padding: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
