@@ -1,0 +1,17 @@
+.container {
+    display: flex; /* Arrange image and details side-by-side */
+    gap: 20px; 
+  }
+  
+  .image-section {
+    width: 250px; /* Adjust as needed */
+    img {
+      width: 100%; 
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  .details-section {
+    /* Styles for heading, paragraphs, and additional elements */
+  }
+  

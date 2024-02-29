@@ -1,5 +1,5 @@
-<mat-card class="song-card">
-  <img mat-card-image class="image" [src]="song.imageUrl" alt="Card image cap">
+<mat-card class="song-card" (click)="onCardClick()">
+  <img mat-card-image class="image" [src]="song.imageUrl" alt="Card image cap" >
   <mat-card-content style="padding-bottom: 0;">
     <div>
       <h5 class="card-title" style="text-align: center;">{{ song.title }}</h5>

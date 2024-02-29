@@ -3,7 +3,13 @@
 body {
     // background: linear-gradient(to top, #000000, #333333);
     background:  black;
-//insert scroll related comp here
   }
 
+  ::-webkit-scrollbar {
+    width: 6px; /* Adjust the width of the scrollbar */
+  }
   
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Adjust the color of the scrollbar thumb */
+    border-radius: 3px; /* Adjust the border-radius of the scrollbar thumb */
+  }
